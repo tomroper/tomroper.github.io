@@ -1,0 +1,48 @@
+.headh2 {
+  font-family: $openSans;
+  color: $baseFontColor;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  @include tablet {
+    text-align: left;
+  }
+}
+
+.error {
+  font-family: $openSans;
+  font-style: italic;
+  font-size: $baseFontSize * 0.75;
+  color: $baseFontColor;
+  margin: 0 auto;
+}
+
+.newsText {
+  display: none;
+  font-family: $openSans;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: $baseFontColor;
+  font-size: $baseFontSize;
+  line-height: $baseFontSize * 1.5;
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  padding: 10px;
+}
+ 
+.newsText:hover {
+  display: block;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $baseFontColor;
+}
+
+h3 {
+  font-family: $openSans;
+  color: $footerFontColor;
+  font-size: $baseFontSize * 0.9;
+}

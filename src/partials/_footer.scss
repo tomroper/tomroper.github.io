@@ -1,0 +1,13 @@
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .uppercase{
+    text-transform: uppercase;
+  }
+  @include desktop {
+    justify-content: flex-start;
+    margin-left: 5%;
+  };
+}
